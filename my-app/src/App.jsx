@@ -2,6 +2,7 @@ import React from 'react'
 import MovieList from './components/MovieList'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 function App() {
 const movies=[
  {
@@ -78,7 +79,7 @@ const movies=[
 
       </section>
 
-
+<Footer/>
     </>
   
   )
