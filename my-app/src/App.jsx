@@ -3,6 +3,7 @@ import MovieList from './components/MovieList'
 import Hero from './components/Hero'
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+
 function App() {
 const movies=[
  {
@@ -51,7 +52,7 @@ const movies=[
       year: 2023,
       genre: "Animation",
       rating: 8.6,
-      image: "https://image.tmdb.org/t/p/w500/8Vt6mWEReuyOf61Lnj5Xj.jpg"
+      image: "https://www.themoviedb.org/t/p/w1280/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg"
     }
 
 
@@ -71,10 +72,11 @@ const movies=[
           </h2>
 
           <span className="text-gray-400 text-sm">
-            Movies
+           {movies.length} Movies
           </span>
 
         </div>
+        <MovieList movies={movies} />
 
 
       </section>
