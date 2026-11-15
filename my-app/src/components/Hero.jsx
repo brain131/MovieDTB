@@ -3,9 +3,10 @@ import React from 'react'
 function Hero() {
   return (
     <div>
+      <img src="{img}" alt="" />
       <section className="px-6 md:px-12 py-12">
 
-        <p className="text-purple-400 uppercase tracking-widest text-sm mb-3">
+        <p className="text-blue-600 uppercase tracking-widest text-sm mb-3">
           Discover your next movie
         </p>
 

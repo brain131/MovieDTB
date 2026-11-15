@@ -58,7 +58,29 @@ const movies=[
 
 
   return (
-   <Nav/>
+    <>   
+  <Nav/>
+  <Hero/>
+<section className="px-6 md:px-12 pb-16">
+
+        <div className="flex justify-between items-center mb-8">
+
+          <h2 className="text-xl md:text-2xl font-semibold">
+            Popular Movies
+          </h2>
+
+          <span className="text-gray-400 text-sm">
+            Movies
+          </span>
+
+        </div>
+
+
+      </section>
+
+
+    </>
+  
   )
 }
 
