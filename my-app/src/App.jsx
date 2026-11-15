@@ -1,5 +1,7 @@
 import React from 'react'
 import MovieList from './components/MovieList'
+import Hero from './components/Hero'
+import Nav from './components/Nav'
 function App() {
 const movies=[
  {
@@ -56,7 +58,7 @@ const movies=[
 
 
   return (
-    <div></div>
+   <Nav/>
   )
 }
 
